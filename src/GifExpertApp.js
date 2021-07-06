@@ -11,7 +11,8 @@ export const GifExpertApp = ({ defaultCategories = [] }) => {
 
     return (
         <div>
-            <h2>GifExpertApp</h2>
+            <h2>GIF App</h2>
+            <p>Please enter the name of the Gif you want display</p>
             <AddCategory
                 categories={categories}
                 setCategories={setCategories}
